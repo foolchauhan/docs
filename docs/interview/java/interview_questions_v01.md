@@ -4,7 +4,7 @@ layout: default
 parent: Java
 grand_parent: Interview
 ---
-# How to execute Threads sequentialy in java?
+# How to execute Threads sequentially in java?
 
 To execute threads sequentially in Java, ensuring one thread completes before the next starts, you can use the following approaches:
 
@@ -108,9 +108,9 @@ public class WaitNotifyExample {
 
 ### Which Approach to Use?
 
-|Approach |Use Case|
-|-----|------|
-|join()	|Simple, ensures sequential execution of threads.|
-|ExecutorService|	Best when managing multiple tasks in sequential order.|
-|synchronized + wait-notify	|Fine-grained control over thread execution order.|
+| Approach                   | Use Case                                               |
+| -------------------------- | ------------------------------------------------------ |
+| join()                     | Simple, ensures sequential execution of threads.       |
+| ExecutorService            | Best when managing multiple tasks in sequential order. |
+| synchronized + wait-notify | Fine-grained control over thread execution order.      |
 
